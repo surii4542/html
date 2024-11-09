@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <legend><b>Complex form</b></legend><br>
+    <fieldset>
+        <form >
+            <legend>personal information</legend>
+            <label for="name">NAME</label>
+            <input type="text" id="name">
+            <label for="email">email</label>
+            <input type="email" id="email">
+            <label for="phone">phone</label>
+            <input type="tel" name="phone" id="phone">
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob">
+            <legend>gender</legend>
+            <input type="radio" id="male" name="gender">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">female</label>
+            <label for="contry">Country</label>
+            <select name="residence" id="country" required>
+                <option value="">--choose the country--</option>
+                <option value="india">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="RUSSIA">RUSSIA</option>
+                <option value="UK">UK</option>
+                <option value="CHina">CHINA</option>
+            </select>
+
+            <fieldset>
+                <legend>Address street</legend>
+                <input type="text" id="city">
+                <label for="city">city</label>
+                <input type="text" id="state">
+                <label for="state">state</label>
+                <input type="number" name="std" id="zipcode">
+                <label for="zipcode">zipcode</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>other information</legend>
+                <textarea name="other" id="others" rows="6" cols="26"></textarea>
+
+                <label for="agree">i agree to terms and condition</label>
+                <input type="radio" id="agree" name="agreed" value="agrees">
+            </fieldset>
+            <button>submit</button>
+
+        </form>
+    </fieldset>
+
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <legend>job application</legend>
+    <fieldset>
+        <form >
+          <label for="NAME">NAME</label><br>
+          <input type="text" id="NAME"><br>
+          <label for="EMAIL">EMAIL</label><br>
+          <input type="email" id="EMAIL"><br>
+          <label for="phone">PHOne</label><br>
+          <input type="tel" id="phone"><br>
+          <label for="file">Uplod resume</label><br>
+          <input type="file" id="file"><br>
+
+          <label for="experience">experience</label><br>
+          <input type="number" id="experience" min="0" max="20"><br>
+
+          <fieldset>
+            <legend>skills</legend>
+            <input type="checkbox" id="HTML"><br>
+            <label for="HTML">HTML</label><br>
+            <input type="checkbox" id="javascript"><br>
+            <label for="javascript">javascript</label><br>
+            <input type="checkbox" id="css"><br>
+            <label for="css">css</label><br>
+
+          </fieldset>
+
+          <label for="education">highest education</label><br>
+          <select name="education" id="education" required>
+            <option value="HIGH SCHOOL">HIGH SCHOOL</option>
+            <option value="DEGREE">DEGREE</option>
+            <option value="OTHER COURSES">OTHER COURSES</option>
+          </select><br>
+     
+
+          <legend style="color: blue;">avalabilty</legend>
+          <label for="full time">full time</label><br>
+          <input type="radio" id="full time" name="avalabilty"><br>
+          <label for="part time">part time</label><br>
+          <input type="radio" id="parttime" name="avalabilty"><br>
+          <label for="additional"></label><br>
+
+          <textarea name="comment" id="additional" rows="6" cols="16" placeholder="additional comment"></textarea>
+          <br>
+
+          <button>apply</button>
+
+
+
+        </form>
+    </fieldset>
+    
+</body>
+</html>

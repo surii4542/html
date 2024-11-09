@@ -1,0 +1,31 @@
+h1{
+    
+    text-align: center;
+}
+
+p{
+    color: brown ;
+    font-style: oblique;
+
+  
+}
+
+#name{
+    color: green;
+}
+
+.introduction{
+    color: blueviolet;
+}
+
+p,article{
+    width: 500px;
+}
+
+p.introduction2{
+    color: orange;
+}
+
+p#para{
+    color: aquamarine;
+}
